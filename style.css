@@ -1,0 +1,25 @@
+body {
+  background: #222;
+  color: #fafafa;
+  font-family: monospace;
+  text-align: center;
+  margin: 0;
+  padding: 16px;
+}
+h1 {
+  margin-bottom: 8px;
+}
+canvas {
+  image-rendering: pixelated;
+  width: 512px;  /* 2x NES-style pixels for display */
+  height: 480px;
+  border: 8px solid #444;
+  background: #5c94fc;
+  display: block;
+  margin: 0 auto 16px auto;
+}
+.controls {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 1rem;
+}
